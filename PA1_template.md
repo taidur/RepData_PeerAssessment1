@@ -45,7 +45,7 @@ df_activity$date <- as.Date(df_activity$date)
 
 ## What is mean total number of steps taken per day?
 
-Let's calculcate total number of steps taken per day and plot the histogram. In this case we ignore NA values.
+Let's calculate total number of steps taken per day and plot the histogram. In this case we ignore NA values.
 
 
 ```r
@@ -56,7 +56,7 @@ hist(df_summary$sum, xlab = 'Number of steps', main = 'Histogram of total number
 
 ![](PA1_template_files/figure-html/unnamed-chunk-6-1.png) 
 
-Now we can calcluate mean and median of total steps taken per day
+Now we can calculate mean and median of total steps taken per day
 
 
 ```r
@@ -65,7 +65,7 @@ median_steps_per_day <- median(df_summary$sum)
 ```
 
  - **Mean steps per day  9354.2295082**
- - **Median steps per day 10395 **
+ - **Median steps per day 10395**
 
 ## What is the average daily activity pattern?
 
